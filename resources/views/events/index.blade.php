@@ -77,7 +77,7 @@
 				      <div class="flex flex-wrap w-1/3">
 				        <div class="w-full p-1 md:p-2">
 				          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-				            src="{{ asset('img/gallery/1.jpeg') }}">
+				            src="{{ asset('img/gallery/5.jpeg') }}">
 				        </div>
 				      </div>
 				      <div class="flex flex-wrap w-1/3">
@@ -89,25 +89,25 @@
 				      <div class="flex flex-wrap w-1/3">
 				        <div class="w-full p-1 md:p-2">
 				          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-				            src="{{ asset('img/gallery/3.jpeg') }}">
-				        </div>
-				      </div>
-				      <div class="flex flex-wrap w-1/3">
-				        <div class="w-full p-1 md:p-2">
-				          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
 				            src="{{ asset('img/gallery/4.jpeg') }}">
 				        </div>
 				      </div>
 				      <div class="flex flex-wrap w-1/3">
 				        <div class="w-full p-1 md:p-2">
 				          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-				            src="{{ asset('img/gallery/5.jpeg') }}">
+				            src="{{ asset('img/gallery/6.jpeg') }}">
 				        </div>
 				      </div>
 				      <div class="flex flex-wrap w-1/3">
 				        <div class="w-full p-1 md:p-2">
 				          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-				            src="{{ asset('img/gallery/6.jpeg') }}">
+				            src="{{ asset('img/gallery/3.jpeg') }}">
+				        </div>
+				      </div>
+				      <div class="flex flex-wrap w-1/3">
+				        <div class="w-full p-1 md:p-2">
+				          <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+				            src="{{ asset('img/gallery/1.jpeg') }}">
 				        </div>
 				      </div>
 				    </div>
