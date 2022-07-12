@@ -15,13 +15,13 @@
         </div>
       </div>
     </div>
-    <div class="relative w-full bg-cover bg-center">
+    <div class="relative w-full bg-">
 
       <video
         autoplay
         loop
         muted
-        class="absolute w-auto min-w-full h-full max-w-none"
+        class="absolute w-auto min-w-full min-h-full md:h-full max-w-none"
       >
         <source
           src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4"
