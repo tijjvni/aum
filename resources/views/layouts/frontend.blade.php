@@ -365,6 +365,7 @@
 
   @livewireScripts
   {{-- swiperjs --}}
+  @yield('scripts');
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script>
     var swiper = new Swiper(".mySwiper", {

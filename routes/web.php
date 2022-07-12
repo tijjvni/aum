@@ -50,6 +50,10 @@ Route::put('/gallery/{gallery:gallery}/edit', [NewsController::class, 'update'])
 
 Route::get('receipts', Receipt::class)->name('receipts');
 
+Route::get('tour', function(){
+	return "coming soon";
+})->name('tour');
+
 
 
 Route::get('fetchDepartmentCourses', [\App\Http\Controllers\FetchDepartmentCourses::class, 'index'])

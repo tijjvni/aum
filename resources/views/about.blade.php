@@ -18,7 +18,7 @@
 
         </div>
       </div>
-      <div class="w-full  w-[48%] space-y-4">
+      <div class="w-full  md:w-[48%] space-y-4">
         <h1 class="text-2xl font-bold uppercase">THE PROPRIETOR
         </h1>
         <div class="text-lg">The Proprietor of the proposed Al-Ansar University is the Al-Ansar Foundation. The
