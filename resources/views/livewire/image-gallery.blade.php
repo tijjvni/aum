@@ -10,11 +10,11 @@
 	        </div>
 
 
-	        <div class="w-full col-span-2 row-span-2 rounded cursor-pointer relative" @click="showImage = true; url = 'img/gallery/2.jpeg' ">
-	            <img  src="{{ asset('img/gallery/2.jpeg') }}"
+	        <div class="w-full col-span-2 row-span-2 rounded cursor-pointer relative" @click="showImage = true; url = 'img/gallery/4.jpeg' ">
+	            <img  src="{{ asset('img/gallery/4.jpeg') }}"
 	                alt="image">
 	            <div class="absolute bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
-		            <h3 class="text-xl text-white font-bold">Staff Conference Room</h3>
+		            <h3 class="text-xl text-white font-bold">Science Lab</h3>
 		        </div>
 	        </div>
 	        <div class="w-full rounded cursor-pointer relative"  @click="showImage = true; url = 'img/gallery/3.jpeg' "">
@@ -24,11 +24,11 @@
 		            <h3 class="text-xl text-white font-bold">Computer Lab</h3>
 		        </div>
 	        </div>
-	        <div class="w-full rounded cursor-pointer relative"   @click="showImage = true; url = 'img/gallery/4.jpeg' ">
-	            <img  src="{{ asset('img/gallery/4.jpeg') }}"
+	        <div class="w-full rounded cursor-pointer relative"   @click="showImage = true; url = 'img/gallery/2.jpeg' ">
+	            <img  src="{{ asset('img/gallery/2.jpeg') }}"
 	                alt="image">
 	            <div class="absolute bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
-		            <h3 class="text-xl text-white font-bold">Science Lab</h3>
+		            <h3 class="text-xl text-white font-bold">Staff Conference Room</h3>
 		        </div>
 	        </div>
 	        <div class="w-full rounded cursor-pointer relative" @click="showImage = true; url = 'img/gallery/5.jpeg' ">
