@@ -15,9 +15,22 @@
         </div>
       </div>
     </div>
-    <div class="relative w-full bg-cover bg-center  bg-[url('/img/s2.jpeg')]">
+    <div class="relative w-full bg-cover bg-center">
+
+      <video
+        autoplay
+        loop
+        muted
+        class="absolute w-auto min-w-full h-full max-w-none"
+      >
+        <source
+          src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
       <div
-        class="flex justify-around py-12 md:py-24 lg:py-28 w-full h-full px-8 bg-black bg-opacity-25 md:px-16 lg:px-24">
+        class="relative  z-30 flex justify-around py-12 md:py-24 lg:py-28 w-full h-full px-8 bg-black bg-opacity-25 md:px-16 lg:px-24">
         <div class="my-auto space-y-4 text-white lg:space-y-8 md:space-y-6">
           <h1 class="text-3xl font-bold leading-loose md:text-4xl lg:text-5xl">Get Your Application Across To Us In Less
             Than 20 Minutes!</h1>
@@ -31,5 +44,6 @@
           </p>
         </div>
       </div>
+
     </div>
   </div>

@@ -53,7 +53,7 @@
 
 		<div class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
 		
-			<div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+			<div class="fixed inset-0 bg-gray-900 bg-opacity-90 transition-opacity"></div>
 
 			<div class="fixed z-10 inset-0 overflow-y-auto">
 		    	<div class="flex items-center sm:items-center justify-center min-h-full p-4 text-center sm:p-0" >
