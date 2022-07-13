@@ -8,7 +8,7 @@
       @forelse (\App\Models\News::orderBy('published_at', 'desc')->take(3)->get() as $news)
         <div class="transition duration-500 transform rounded shadow-sm hover:-translate-y-4" style="max-height: 620px">
           <div class="relative w-full h-64 overflow-hidden">
-            <img src="{{ $news->getFirstMedia('news')->getUrl() }}" alt="al-ansar images"
+            <img src="{{ $news->image }}" alt="al-ansar images"
               class="object-cover object-center w-full h-full transition duration-300 transform ">
           </div>
           <div class="space-y-2">

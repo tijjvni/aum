@@ -15,7 +15,7 @@
         <div class="overflow-hidden transition duration-500 transform bg-white rounded-lg shadow hover:-translate-y-4"
           style="max-height: 500px">
           <div class="relative w-full h-64 overflow-hidden">
-            <img src="{{ $new->getFirstMedia('news')->getUrl() }}" alt="al-ansar images"
+            <img src="{{ $new->image }}" alt="al-ansar images"
               class="object-cover w-full h-full transition duration-300 transform ">
             <p class="absolute bottom-0 right-0 p-2 m-2 text-sm text-white bg-red-500 lg:m-4">
               <span class="mr-2"><i class="bi bi-calendar-check-fill"></i></span><span

@@ -13,14 +13,12 @@
       <h1 class="my-6 text-2xl font-bold lg:text-3xl 2xl:text-4xl lg:font-extrabold">About Us</h1>
     </div>
     <div class="flex flex-wrap w-full gap-8 mx-auto max-w-7xl">
-      <div class="w-full  w-[48%]">
-        <div class="relative w-full aspect-square bg-cover  bg-[url('/img/president.jpeg')]">
+      
 
-        </div>
-      </div>
-      <div class="w-full  md:w-[48%] space-y-4">
+      <div class="w-full  space-y-4">
         <h1 class="text-2xl font-bold uppercase">THE PROPRIETOR
         </h1>
+        <img class="float-left w-32 md:w-48 m-5 md:mr-10 ..." src="{{ url('/img/president.jpeg') }}">
         <div class="text-lg">The Proprietor of the proposed Al-Ansar University is the Al-Ansar Foundation. The
           Al-Ansar Foundation is registered with the Corporate Affairs Commission of Nigeria. It was registered on 18
           March, 2015 with <strong>CAC/IT/NO 76373</strong> . The office of the Foundation is located at <address>No. 42A,

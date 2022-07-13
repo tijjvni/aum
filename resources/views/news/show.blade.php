@@ -8,7 +8,7 @@
   </div>
   <div class="w-full py-8 mx-auto space-y-4 rounded-lg shadow-sm max-w-7xl ">
     <div class="w-full max-w-5xl mx-auto space-y-4 overflow-hidden">
-      <img src="{{ $news->getFirstMedia('news')->getUrl() }}" alt="{{ $news->title }}"
+      <img src="{{ $news->image }}" alt="al-ansar images"
         class="object-cover w-full mx-auto" style="max-height: 720px">
       <div class="max-w-4xl px-4 space-y-4 lg:px-0">
         <h1 class="text-3xl font-extrabold text-center">{{ $news->title }}</h1>
