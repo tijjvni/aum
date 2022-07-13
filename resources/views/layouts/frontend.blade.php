@@ -128,8 +128,12 @@
                 Events</a>
             </li>
             <li class="p-0 m-0">
-              <a class="uppercase transition duration-500 hover:text-red-600 hover:opacity-95" href="/events">Photo
-                Gallery</a>
+              <a class="uppercase transition duration-500 hover:text-red-600 hover:opacity-95" href="/events">                Gallery</a>
+            </li>
+
+            <li class="p-0 m-0">
+              <a class="uppercase transition duration-500 hover:text-red-600 hover:opacity-95" href="/tour">
+              Virtual Tour</a>
             </li>
             <li class="p-0 m-0">
               <a class="uppercase transition duration-500 hover:text-red-600 hover:opacity-95" href="/contact">Contact
@@ -172,8 +176,12 @@
             </li>
             </li>
             <li class="p-0 m-0">
-              <a class="uppercase transition duration-500 hover:text-red-600 hover:opacity-95" href="/events">Photo
+              <a class="uppercase transition duration-500 hover:text-red-600 hover:opacity-95" href="/events">
                 Gallery</a>
+            </li>
+            <li class="p-0 m-0">
+              <a class="uppercase transition duration-500 hover:text-red-600 hover:opacity-95" href="/tour">
+                Virtual Tour</a>
             </li>
             </li>
 

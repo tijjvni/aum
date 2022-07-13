@@ -62,6 +62,5 @@
       </div>
     </div>
   </div>
-  <a href="/faculty" class="block px-8 py-3 mx-auto font-medium text-white bg-red-600 border-red-600 max-w-max">All
-    faculties</a>
+  <a href="/faculty" class="block px-8 py-3 mx-auto font-medium text-white bg-red-600 border-red-600 max-w-max"> More on faculties</a>
 </div>
