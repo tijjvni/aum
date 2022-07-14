@@ -103,6 +103,7 @@ class CourseSeeder extends Seeder
             'programmes' => 'BMLS'
         ],
     );
+    
     public function run()
     {
         foreach ($this->courses as $course) {

@@ -26,7 +26,7 @@
               <div class="p-2">
                 <ul class="text-green-600 font-medium text-lg pl-4 list-inside list-disc">
                   @foreach ($department->courses as $course)
-                    <li><a href="/programmes#{{ $course->id }}" class="">{{ $course->programmes }}</a></li>
+                    <li><a href="/programmes/{{ $course->id }}" class="">{{ $course->programmes }}</a></li>
                   @endforeach
                 </ul>
               </div>

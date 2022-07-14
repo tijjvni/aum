@@ -4,6 +4,7 @@ use App\Http\Livewire\Galleries;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\ProgrammeController;
 use App\Http\Livewire\AddImage;
 use App\Http\Livewire\Receipt;
 
@@ -28,7 +29,8 @@ Route::get('/dashboard', function () {
 
 Route::view('/faculty', 'faculties')->name('faculty');
 
-Route::view('/programmes', 'programmes')->name('programmes');
+// Route::view('/programmes', 'programmes')->name('programmes');
+Route::get('/programmes/{course}',[ProgrammeController::class, 'index'])->where('course', '[0-9]+')->name('programmes');
 Route::view('/contact', 'contact')->name('contact');
 Route::view('/about', 'about')->name('about');
 Route::view('/receipt', 'receipt')->name('receipt');
